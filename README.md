@@ -7,11 +7,26 @@ open the terminal in vs code and follow the steps below.
 
 
 
->>cd <path to the project directory>
+>>cd <path_to_the_project_directory>
+
+
+
 >>git clone https://github.com/Parijat1072005/DiabetesPrediction
+
+
+
 >>cd DiabetesPrediction
+
+
+
 >>python -m venv venv
+
+
+
 >>.\venv\Scripts\activate
+
+
+
 >>pip install -r requirements.txt
 
 
