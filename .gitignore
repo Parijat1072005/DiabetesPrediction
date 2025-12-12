@@ -1,8 +1,109 @@
-.ipynb_checkpoints/
+# -------------------------------------------------------------------------
+# 1. Python & Virtual Environments
+# -------------------------------------------------------------------------
 __pycache__/
-*.pyc
-.DS_Store
-*~
-Thumbs.db
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
 venv/
+.venv/
 env/
+.env/
+ENV/
+
+# -------------------------------------------------------------------------
+# 2. Jupyter Notebooks (Crucial for your transition)
+# -------------------------------------------------------------------------
+# Checkpoints created by Jupyter automatically
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Optional: Ignore all notebooks if you converted them to .py scripts
+# *.ipynb
+
+# IPython configs
+profile_default/
+ipython_config.py
+
+# -------------------------------------------------------------------------
+# 3. VS Code Settings
+# -------------------------------------------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# -------------------------------------------------------------------------
+# 4. Datasets (Diabetes Data)
+# -------------------------------------------------------------------------
+# Ignore raw data files (CSV, Excel, JSON)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+
+# If you keep data in specific folders:
+data/
+datasets/
+raw_data/
+processed_data/
+
+# -------------------------------------------------------------------------
+# 5. Trained Models & Serialization
+# -------------------------------------------------------------------------
+# Serialized Python objects (Scikit-Learn models, Scalers)
+*.pkl
+*.pickle
+*.joblib
+*.sav
+
+# Deep Learning weights (if used)
+*.h5
+*.pt
+*.pth
+models/
+saved_models/
+
+# -------------------------------------------------------------------------
+# 6. Graphs & Visualizations (EDA Output)
+# -------------------------------------------------------------------------
+# Generated plots usually shouldn't be version controlled
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+plots/
+figures/
+
+# -------------------------------------------------------------------------
+# 7. Environment Variables & Logs
+# -------------------------------------------------------------------------
+.env
+.secrets
+*.log
+logs/
