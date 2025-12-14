@@ -37,6 +37,15 @@ Ignore the commit message in the files since there are .ipynb files having outpu
 
 You can now directly run the whole file or run each cell one by one as per your choice just after selecting right interpreter of python.
 
+                Now if you want to see the website which predicts the diabetes follow the steps below
+move to the app directory
+>>cd diabetes_app
+
+
+
+>>pip install -r requirements.txt
+
+
 
 Run the training script to generate the model.pkl and scaler.pkl files inside the model/ directory.
 
