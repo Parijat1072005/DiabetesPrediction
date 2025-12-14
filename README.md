@@ -30,13 +30,20 @@ open the terminal in vs code and follow the steps below.
 >>pip install -r requirements.txt
 
 
-Ignore the commit message in the files since there are .ipynb files having outputs so they keep updating and hence the message to commit stays so either just ignore that or remove all the outputs from the file.
+Ignore the commit message in the files since there are .ipynb files having outputs so they keep updating and hence the message to commit stays so either just ignore that or remove all the outputs from the file, you can use nbstripout if you want and its installation process go google it.
 
 
 
 
-You can now directly run the whole file or run each cell one by one as per your choice just after selection right interpreter of python.
+You can now directly run the whole file or run each cell one by one as per your choice just after selecting right interpreter of python.
+
+
+Run the training script to generate the model.pkl and scaler.pkl files inside the model/ directory.
+
+
+>>python train_model.py
 
 
 
+>>python app.py
 

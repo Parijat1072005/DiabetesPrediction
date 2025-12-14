@@ -107,3 +107,23 @@ figures/
 .secrets
 *.log
 logs/
+# -------------------------------------------------------------------------
+# 8. Web Development (Flask & Project Specifics)
+# -------------------------------------------------------------------------
+# Flask instance folder (often used for config)
+instance/
+.webassets-cache
+
+# Pytest/Coverage (if you add tests later)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Specific logic for the model folder
+# We generally IGNORE .pkl files (already done in section 5), 
+# but if you want to FORCE tracking of the specific model files 
+# for deployment, un-comment the lines below:
+# !diabetes_app/model/*.pkl
+
+# Mac OS junk files (if any team member uses Mac)
+.DS_Store
